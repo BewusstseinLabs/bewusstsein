@@ -1,3 +1,6 @@
+#[cfg(feature = "const-expr-bounds")]
+pub use const_expr_bounds;
+
 #[cfg(feature = "memory")]
 pub use memory;
 
