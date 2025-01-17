@@ -7,6 +7,9 @@ pub use memory;
 #[cfg(feature = "linear-algebra")]
 pub use linear_algebra;
 
+#[cfg(feature = "geometric-algebra")]
+pub use geometric_algebra;
+
 #[cfg(feature = "probability")]
 pub use probability;
 

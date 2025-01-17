@@ -10,6 +10,7 @@ path = "src/lib.rs"
 const-expr-bounds = ["dep:const-expr-bounds"]
 memory            = ["dep:memory"]
 linear-algebra    = ["dep:linear-algebra"]
+geometric-algebra = ["dep:geometric-algebra"]
 calculus          = ["dep:calculus"]
 probability       = ["dep:probability"]
 kinematics        = ["dep:kinematics"]
@@ -24,6 +25,7 @@ robotics          = ["dep:robotics"]
 const-expr-bounds = { version = "0.1.0", optional = true, path = "../../const-expr-bounds/rust" }
 memory            = { version = "0.1.0", optional = true, path = "../../memory/rust" }
 linear-algebra    = { version = "0.1.0", optional = true, path = "../../linear-algebra/rust" }
+geometric-algebra = { version = "0.1.0", optional = true, path = "../../geometric-algebra/rust" }
 calculus          = { version = "0.1.0", optional = true, path = "../../calculus/rust" }
 probability       = { version = "0.1.0", optional = true, path = "../../probability/rust" }
 kinematics        = { version = "0.1.0", optional = true, path = "../../kinematics/rust" }
